@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.Net Projects\\Store.Microservice\\Store.ProductsMicroservice Sol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{473C606A-641D-4014-BD07-F718B5406F85}|Products.BusinessLogic\\Products.BusinessLogic.csproj|d:\\.net projects\\store.microservice\\store.productsmicroservice sol\\products.businesslogic\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{473C606A-641D-4014-BD07-F718B5406F85}|Products.BusinessLogic\\Products.BusinessLogic.csproj|solutionrelative:products.businesslogic\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{473C606A-641D-4014-BD07-F718B5406F85}|Products.BusinessLogic\\Products.BusinessLogic.csproj|d:\\.net projects\\store.microservice\\store.productsmicroservice sol\\products.businesslogic\\mappers\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{473C606A-641D-4014-BD07-F718B5406F85}|Products.BusinessLogic\\Products.BusinessLogic.csproj|solutionrelative:products.businesslogic\\mappers\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D6BC5D5-DE9F-445E-B1E3-C6367B053E43}|Products.Api\\Products.Api.csproj|d:\\.net projects\\store.microservice\\store.productsmicroservice sol\\products.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D6BC5D5-DE9F-445E-B1E3-C6367B053E43}|Products.Api\\Products.Api.csproj|solutionrelative:products.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{473C606A-641D-4014-BD07-F718B5406F85}|Products.BusinessLogic\\Products.BusinessLogic.csproj|d:\\.net projects\\store.microservice\\store.productsmicroservice sol\\products.businesslogic\\dtos\\categoryandproductsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{473C606A-641D-4014-BD07-F718B5406F85}|Products.BusinessLogic\\Products.BusinessLogic.csproj|solutionrelative:products.businesslogic\\dtos\\categoryandproductsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{473C606A-641D-4014-BD07-F718B5406F85}|Products.BusinessLogic\\Products.BusinessLogic.csproj|d:\\.net projects\\store.microservice\\store.productsmicroservice sol\\products.businesslogic\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{473C606A-641D-4014-BD07-F718B5406F85}|Products.BusinessLogic\\Products.BusinessLogic.csproj|solutionrelative:products.businesslogic\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{473C606A-641D-4014-BD07-F718B5406F85}|Products.BusinessLogic\\Products.BusinessLogic.csproj|d:\\.net projects\\store.microservice\\store.productsmicroservice sol\\products.businesslogic\\servicescontracts\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{473C606A-641D-4014-BD07-F718B5406F85}|Products.BusinessLogic\\Products.BusinessLogic.csproj|solutionrelative:products.businesslogic\\servicescontracts\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\.Net Projects\\Store.Microservice\\Store.ProductsMicroservice Sol\\Products.BusinessLogic\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Products.BusinessLogic\\Services\\ProductService.cs",
+              "ToolTip": "D:\\.Net Projects\\Store.Microservice\\Store.ProductsMicroservice Sol\\Products.BusinessLogic\\Services\\ProductService.cs",
+              "RelativeToolTip": "Products.BusinessLogic\\Services\\ProductService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAAFIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T21:52:16.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\.Net Projects\\Store.Microservice\\Store.ProductsMicroservice Sol\\Products.BusinessLogic\\ServicesContracts\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Products.BusinessLogic\\ServicesContracts\\ICategoryService.cs",
+              "ToolTip": "D:\\.Net Projects\\Store.Microservice\\Store.ProductsMicroservice Sol\\Products.BusinessLogic\\ServicesContracts\\ICategoryService.cs",
+              "RelativeToolTip": "Products.BusinessLogic\\ServicesContracts\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T21:48:37.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\.Net Projects\\Store.Microservice\\Store.ProductsMicroservice Sol\\Products.Api\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Products.Api\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\.Net Projects\\Store.Microservice\\Store.ProductsMicroservice Sol\\Products.Api\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Products.Api\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwB4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T21:47:35.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductProfile.cs",
+              "DocumentMoniker": "D:\\.Net Projects\\Store.Microservice\\Store.ProductsMicroservice Sol\\Products.BusinessLogic\\Mappers\\ProductProfile.cs",
+              "RelativeDocumentMoniker": "Products.BusinessLogic\\Mappers\\ProductProfile.cs",
+              "ToolTip": "D:\\.Net Projects\\Store.Microservice\\Store.ProductsMicroservice Sol\\Products.BusinessLogic\\Mappers\\ProductProfile.cs",
+              "RelativeToolTip": "Products.BusinessLogic\\Mappers\\ProductProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T21:46:41.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\.Net Projects\\Store.Microservice\\Store.ProductsMicroservice Sol\\Products.BusinessLogic\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Products.BusinessLogic\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\.Net Projects\\Store.Microservice\\Store.ProductsMicroservice Sol\\Products.BusinessLogic\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Products.BusinessLogic\\Services\\CategoryService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T21:46:06.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryAndProductsDto.cs",
+              "DocumentMoniker": "D:\\.Net Projects\\Store.Microservice\\Store.ProductsMicroservice Sol\\Products.BusinessLogic\\Dtos\\CategoryAndProductsDto.cs",
+              "RelativeDocumentMoniker": "Products.BusinessLogic\\Dtos\\CategoryAndProductsDto.cs",
+              "ToolTip": "D:\\.Net Projects\\Store.Microservice\\Store.ProductsMicroservice Sol\\Products.BusinessLogic\\Dtos\\CategoryAndProductsDto.cs",
+              "RelativeToolTip": "Products.BusinessLogic\\Dtos\\CategoryAndProductsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T21:45:52.895Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

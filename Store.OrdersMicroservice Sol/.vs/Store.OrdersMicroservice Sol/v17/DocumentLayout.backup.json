@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.Net Projects\\Store.Microservice\\Store.OrdersMicroservice Sol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E889AC-5120-4551-8232-675C7EBFA3CA}|Orders.BusinessLogic\\Orders.BusinessLogic.csproj|d:\\.net projects\\store.microservice\\store.ordersmicroservice sol\\orders.businesslogic\\rabbitmq\\productnameupdateconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E889AC-5120-4551-8232-675C7EBFA3CA}|Orders.BusinessLogic\\Orders.BusinessLogic.csproj|solutionrelative:orders.businesslogic\\rabbitmq\\productnameupdateconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3668A959-5DCC-47B6-BD8E-5E9A3C2AB76D}|ApiGateway\\ApiGateway.csproj|d:\\.net projects\\store.microservice\\store.ordersmicroservice sol\\apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3668A959-5DCC-47B6-BD8E-5E9A3C2AB76D}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E889AC-5120-4551-8232-675C7EBFA3CA}|Orders.BusinessLogic\\Orders.BusinessLogic.csproj|d:\\.net projects\\store.microservice\\store.ordersmicroservice sol\\orders.businesslogic\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E889AC-5120-4551-8232-675C7EBFA3CA}|Orders.BusinessLogic\\Orders.BusinessLogic.csproj|solutionrelative:orders.businesslogic\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E889AC-5120-4551-8232-675C7EBFA3CA}|Orders.BusinessLogic\\Orders.BusinessLogic.csproj|d:\\.net projects\\store.microservice\\store.ordersmicroservice sol\\orders.businesslogic\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E889AC-5120-4551-8232-675C7EBFA3CA}|Orders.BusinessLogic\\Orders.BusinessLogic.csproj|solutionrelative:orders.businesslogic\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A40E1F3A-A7F1-4BFE-B89A-16B1CA22D1EE}|Orders.Api\\Orders.Api.csproj|d:\\.net projects\\store.microservice\\store.ordersmicroservice sol\\orders.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A40E1F3A-A7F1-4BFE-B89A-16B1CA22D1EE}|Orders.Api\\Orders.Api.csproj|solutionrelative:orders.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductNameUpdateConsumer.cs",
+              "DocumentMoniker": "D:\\.Net Projects\\Store.Microservice\\Store.OrdersMicroservice Sol\\Orders.BusinessLogic\\RabbitMQ\\ProductNameUpdateConsumer.cs",
+              "RelativeDocumentMoniker": "Orders.BusinessLogic\\RabbitMQ\\ProductNameUpdateConsumer.cs",
+              "ToolTip": "D:\\.Net Projects\\Store.Microservice\\Store.OrdersMicroservice Sol\\Orders.BusinessLogic\\RabbitMQ\\ProductNameUpdateConsumer.cs",
+              "RelativeToolTip": "Orders.BusinessLogic\\RabbitMQ\\ProductNameUpdateConsumer.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T00:43:06.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ocelot.json",
+              "DocumentMoniker": "D:\\.Net Projects\\Store.Microservice\\Store.OrdersMicroservice Sol\\ApiGateway\\Ocelot.json",
+              "RelativeDocumentMoniker": "ApiGateway\\Ocelot.json",
+              "ToolTip": "D:\\.Net Projects\\Store.Microservice\\Store.OrdersMicroservice Sol\\ApiGateway\\Ocelot.json",
+              "RelativeToolTip": "ApiGateway\\Ocelot.json",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAgwIwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T12:46:09.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "D:\\.Net Projects\\Store.Microservice\\Store.OrdersMicroservice Sol\\Orders.BusinessLogic\\Dtos\\OrderDto.cs",
+              "RelativeDocumentMoniker": "Orders.BusinessLogic\\Dtos\\OrderDto.cs",
+              "ToolTip": "D:\\.Net Projects\\Store.Microservice\\Store.OrdersMicroservice Sol\\Orders.BusinessLogic\\Dtos\\OrderDto.cs",
+              "RelativeToolTip": "Orders.BusinessLogic\\Dtos\\OrderDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T01:51:41.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.Net Projects\\Store.Microservice\\Store.OrdersMicroservice Sol\\Orders.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Orders.Api\\Program.cs",
+              "ToolTip": "D:\\.Net Projects\\Store.Microservice\\Store.OrdersMicroservice Sol\\Orders.Api\\Program.cs",
+              "RelativeToolTip": "Orders.Api\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvw8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T00:02:51.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\.Net Projects\\Store.Microservice\\Store.OrdersMicroservice Sol\\Orders.BusinessLogic\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Orders.BusinessLogic\\Services\\OrderService.cs",
+              "ToolTip": "D:\\.Net Projects\\Store.Microservice\\Store.OrdersMicroservice Sol\\Orders.BusinessLogic\\Services\\OrderService.cs",
+              "RelativeToolTip": "Orders.BusinessLogic\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:18:58.248Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+services:
+  products.api:
+    image: ${DOCKER_REGISTRY-}productsapi
+    build:
+      context: .
+      dockerfile: Products.Api/Dockerfile
+    environment:
+      - SQL_HOST=sql-products-container
+      - SQL_PORT=1433
+      - SQL_DATABASE=Products_Microservice
+      - SQL_USER=SA
+      - SQL_PASSWORD=YourStrongPassword123!
+
+    ports:
+      - "6000:8080"
+    networks:
+      - store-network
+    depends_on:
+    - sql-products-container
+  
+  sql-products-container:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - "1437:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrongPassword123!
+    volumes:
+      - ./ProductsDB:/var/opt/mssql/data
+    networks:
+      - store-network
+ 
+networks:
+  store-network:
+    driver: bridge

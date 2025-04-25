@@ -1,0 +1,173 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/Orders",
+      "DownstreamPathTemplate": "/api/Order",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "orders.api",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET", "POST", "OPTIONS" ],
+      "UpstreamScheme": "http"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Login",
+      "DownstreamPathTemplate": "/api/User/Login",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "users-container",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "POST" ],
+      "UpstreamScheme": "http"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Register",
+      "DownstreamPathTemplate": "/api/User/Register",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "users-container",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "POST" ],
+      "UpstreamScheme": "http"
+    },
+
+    {
+      "UpstreamPathTemplate": "/gateway/User/{userId}",
+      "DownstreamPathTemplate": "/api/User/{userId}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "users-container",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamScheme": "http"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/User/Email/{email}",
+      "DownstreamPathTemplate": "/api/User/Email/{email}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "users-container",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamScheme": "http"
+    },
+    //-----------------------------------------//
+    {
+      "UpstreamPathTemplate": "/gateway/Order/search/{email}",
+      "DownstreamPathTemplate": "/api/Order/search/{email}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "orders.api",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamScheme": "http",
+      "UpstreamScheme": "http"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Order/{orderId}",
+      "DownstreamPathTemplate": "/api/Order/{orderId}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "orders.api",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamScheme": "http",
+      "UpstreamScheme": "http"
+    },
+
+    //-------------------------//
+
+    {
+      "UpstreamPathTemplate": "/gateway/Product",
+      "DownstreamPathTemplate": "/api/Product",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "products-container",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST", "OPTIONS" ],
+      "UpstreamScheme": "http"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Product/{id}",
+      "DownstreamPathTemplate": "/api/Product/{id}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "products-container",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET", "DELETE", "OPTIONS" ],
+      "UpstreamScheme": "http"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Product/search/{searchPhrase}",
+      "DownstreamPathTemplate": "/api/Product/search/{searchPhrase}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "products-container",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamScheme": "http"
+    },
+    //--------------------//
+
+    {
+      "UpstreamPathTemplate": "/gateway/Category",
+      "DownstreamPathTemplate": "/api/Category",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "products-container",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "POST", "GET", "PUT", "OPTIONS" ],
+      "UpstreamScheme": "http"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Category/{name}",
+      "DownstreamPathTemplate": "/api/Category/{name}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "products-container",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET", "DELETE", "OPTIONS" ],
+      "UpstreamScheme": "http"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/Category/search/{searchPhrase}",
+      "DownstreamPathTemplate": "/api/Category/search/{searchPhrase}",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "products-container",
+          "Port": 8080
+        }
+      ],
+      "UpstreamHttpMethod": [ "GET" ],
+      "UpstreamScheme": "http"
+    }
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:4000"
+  }
+}

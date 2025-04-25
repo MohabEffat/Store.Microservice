@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "Orders.Api.Controllers.OrderController",
+    "Method": "Get",
+    "RelativePath": "api/Order/Get/{orderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Orders.Api.Controllers.OrderController",
+    "Method": "Get",
+    "RelativePath": "api/Order/Get/search/{userEmail}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userEmail",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Orders.Api.Controllers.OrderController",
+    "Method": "GetOrders",
+    "RelativePath": "api/Order/GetOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Orders.Api.Controllers.OrderController",
+    "Method": "MakeOrder",
+    "RelativePath": "api/Order/MakeOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "Orders.BusinessLogic.Dtos.AddOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

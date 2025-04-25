@@ -1,0 +1,80 @@
+name: dockercompose1799087986065182752
+services:
+  products.api:
+    build:
+      context: D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol
+      dockerfile: Products.Api/Dockerfile
+    depends_on:
+      sql-products-container:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+      SQL_DATABASE: Products_Microservice
+      SQL_HOST: sql-products-container
+      SQL_PASSWORD: YourStrongPassword123!
+      SQL_PORT: "1433"
+      SQL_USER: SA
+    image: productsapi
+    networks:
+      store-network: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "6000"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\mohab\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\mohab\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\mohab\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\mohab\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  sql-products-container:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: YourStrongPassword123!
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      store-network: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1437"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\ProductsDB
+        target: /var/opt/mssql/data
+        bind:
+          create_host_path: true
+networks:
+  store-network:
+    name: dockercompose1799087986065182752_store-network
+    driver: bridge

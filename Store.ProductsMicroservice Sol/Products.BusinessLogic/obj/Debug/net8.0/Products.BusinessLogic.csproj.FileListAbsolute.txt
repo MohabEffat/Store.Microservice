@@ -1,0 +1,15 @@
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.BusinessLogic\bin\Debug\net8.0\Products.BusinessLogic.deps.json
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.BusinessLogic\bin\Debug\net8.0\Products.BusinessLogic.dll
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.BusinessLogic\bin\Debug\net8.0\Products.BusinessLogic.pdb
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.BusinessLogic\bin\Debug\net8.0\Products.DataAccess.dll
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.BusinessLogic\bin\Debug\net8.0\Products.DataAccess.pdb
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.BusinessLogic\obj\Debug\net8.0\Products.BusinessLogic.csproj.AssemblyReference.cache
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.BusinessLogic\obj\Debug\net8.0\Products.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.BusinessLogic\obj\Debug\net8.0\Products.BusinessLogic.AssemblyInfoInputs.cache
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.BusinessLogic\obj\Debug\net8.0\Products.BusinessLogic.AssemblyInfo.cs
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.BusinessLogic\obj\Debug\net8.0\Products.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.BusinessLogic\obj\Debug\net8.0\Products.DC67A568.Up2Date
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.BusinessLogic\obj\Debug\net8.0\Products.BusinessLogic.dll
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.BusinessLogic\obj\Debug\net8.0\refint\Products.BusinessLogic.dll
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.BusinessLogic\obj\Debug\net8.0\Products.BusinessLogic.pdb
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.BusinessLogic\obj\Debug\net8.0\ref\Products.BusinessLogic.dll

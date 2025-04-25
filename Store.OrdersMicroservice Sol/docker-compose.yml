@@ -1,0 +1,149 @@
+version: "3.9"
+
+services:
+  orders.api:
+    image: store_orders_microservice
+    build:
+      context: .
+      dockerfile: Orders.Api/Dockerfile
+    environment:
+      - SQL_HOST=sql-orders-container
+      - SQL_PORT=1433
+      - SQL_DATABASE=Orders_Microservice
+      - SQL_USER=SA
+      - SQL_PASSWORD=YourStrongPassword123!
+      - UsersMicroserviceName=users-container
+      - UsersMicroservicePort=8080
+      - ProductsMicroserviceName=products-container
+      - ProductsMicroservicePort=8080
+      - Redis_Host=redis
+      - Redis_Port=6379
+      - RabbitMQ_Host=rabbitmq
+      - RabbitMQ_Port=5672
+      - RabbitMQ_Username=user
+      - RabbitMQ_Password=password
+      - RabbitMQ_Product_Exchange=Orders_Exchange
+    ports:
+      - "6000:8080"
+    networks:
+      - orders-network
+      - store-network
+    depends_on:
+    - sql-orders-container
+  sql-orders-container:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - "1435:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrongPassword123!
+    volumes:
+      - ./OrdersDB:/var/opt/mssql/data
+    networks:
+      - orders-network
+
+  users-container:
+    image: store-users-microservice:latest
+    environment:
+      - SQL_HOST=sql-users-container
+      - SQL_PORT=1433
+      - SQL_DATABASE=Users_Microservice
+      - SQL_USER=SA
+      - SQL_PASSWORD=YourStrongPassword123!
+    ports:
+      - "7000:8080"
+    networks:
+      - store-network
+      - users-network
+    depends_on:
+    - sql-users-container
+
+  sql-users-container:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - "1436:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrongPassword123!
+    volumes:
+      - ./UsersDB:/var/opt/mssql/data
+    networks:
+      - users-network
+
+  products-container:
+    image: store-products-microservice:latest
+    environment:
+      - SQL_HOST=sql-products-container
+      - SQL_PORT=1433
+      - SQL_DATABASE=Products_Microservice
+      - SQL_USER=SA
+      - SQL_PASSWORD=YourStrongPassword123!
+      - RabbitMQ_Host=rabbitmq
+      - RabbitMQ_Port=5672
+      - RabbitMQ_Username=user
+      - RabbitMQ_Password=password
+      - RabbitMQ_Product_Exchange=Products_Exchange
+    ports:
+      - "5000:8080"
+    networks:
+      - store-network
+      - products-network
+    depends_on:
+    - sql-products-container
+
+  sql-products-container:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - "1437:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrongPassword123!
+    volumes:
+      - ./ProductsDB:/var/opt/mssql/data
+    networks:
+      - products-network
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./RedisData:/data
+    networks:
+      - store-network
+
+  rabbitmq:
+    image: rabbitmq:3.13-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=user
+      - RABBITMQ_DEFAULT_PASS=password
+    networks:
+      - store-network
+
+  apigateway:
+    image: store_api_gateway
+    build:
+      context: .
+      dockerfile: ApiGateway/Dockerfile
+    ports:
+      - "4000:8080"
+    networks:
+      - store-network
+      - orders-network
+
+
+
+
+
+networks:
+  store-network:
+    driver: bridge
+  orders-network:
+    driver: bridge
+  products-network:
+    driver: bridge
+  users-network:
+    driver: bridge

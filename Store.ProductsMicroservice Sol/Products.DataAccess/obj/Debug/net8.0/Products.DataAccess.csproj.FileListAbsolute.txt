@@ -1,0 +1,12 @@
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.DataAccess\bin\Debug\net8.0\Products.DataAccess.deps.json
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.DataAccess\bin\Debug\net8.0\Products.DataAccess.dll
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.DataAccess\bin\Debug\net8.0\Products.DataAccess.pdb
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.DataAccess\obj\Debug\net8.0\Products.DataAccess.csproj.AssemblyReference.cache
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.DataAccess\obj\Debug\net8.0\Products.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.DataAccess\obj\Debug\net8.0\Products.DataAccess.AssemblyInfoInputs.cache
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.DataAccess\obj\Debug\net8.0\Products.DataAccess.AssemblyInfo.cs
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.DataAccess\obj\Debug\net8.0\Products.DataAccess.csproj.CoreCompileInputs.cache
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.DataAccess\obj\Debug\net8.0\Products.DataAccess.dll
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.DataAccess\obj\Debug\net8.0\refint\Products.DataAccess.dll
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.DataAccess\obj\Debug\net8.0\Products.DataAccess.pdb
+D:\.Net Projects\Store.Microservice\Store.ProductsMicroservice Sol\Products.DataAccess\obj\Debug\net8.0\ref\Products.DataAccess.dll

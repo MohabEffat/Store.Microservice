@@ -1,0 +1,15 @@
+D:\.Net Projects\Store.Microservice\Store.UsersMicroservice Sol\Users.BusinessLogic\bin\Debug\net8.0\Users.BusinessLogic.deps.json
+D:\.Net Projects\Store.Microservice\Store.UsersMicroservice Sol\Users.BusinessLogic\bin\Debug\net8.0\Users.BusinessLogic.dll
+D:\.Net Projects\Store.Microservice\Store.UsersMicroservice Sol\Users.BusinessLogic\bin\Debug\net8.0\Users.BusinessLogic.pdb
+D:\.Net Projects\Store.Microservice\Store.UsersMicroservice Sol\Users.BusinessLogic\bin\Debug\net8.0\Users.DataAccess.dll
+D:\.Net Projects\Store.Microservice\Store.UsersMicroservice Sol\Users.BusinessLogic\bin\Debug\net8.0\Users.DataAccess.pdb
+D:\.Net Projects\Store.Microservice\Store.UsersMicroservice Sol\Users.BusinessLogic\obj\Debug\net8.0\Users.BusinessLogic.csproj.AssemblyReference.cache
+D:\.Net Projects\Store.Microservice\Store.UsersMicroservice Sol\Users.BusinessLogic\obj\Debug\net8.0\Users.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net Projects\Store.Microservice\Store.UsersMicroservice Sol\Users.BusinessLogic\obj\Debug\net8.0\Users.BusinessLogic.AssemblyInfoInputs.cache
+D:\.Net Projects\Store.Microservice\Store.UsersMicroservice Sol\Users.BusinessLogic\obj\Debug\net8.0\Users.BusinessLogic.AssemblyInfo.cs
+D:\.Net Projects\Store.Microservice\Store.UsersMicroservice Sol\Users.BusinessLogic\obj\Debug\net8.0\Users.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\.Net Projects\Store.Microservice\Store.UsersMicroservice Sol\Users.BusinessLogic\obj\Debug\net8.0\Users.Bu.C5F55247.Up2Date
+D:\.Net Projects\Store.Microservice\Store.UsersMicroservice Sol\Users.BusinessLogic\obj\Debug\net8.0\Users.BusinessLogic.dll
+D:\.Net Projects\Store.Microservice\Store.UsersMicroservice Sol\Users.BusinessLogic\obj\Debug\net8.0\refint\Users.BusinessLogic.dll
+D:\.Net Projects\Store.Microservice\Store.UsersMicroservice Sol\Users.BusinessLogic\obj\Debug\net8.0\Users.BusinessLogic.pdb
+D:\.Net Projects\Store.Microservice\Store.UsersMicroservice Sol\Users.BusinessLogic\obj\Debug\net8.0\ref\Users.BusinessLogic.dll
