@@ -1,3 +1,4 @@
+# 🛒 NET Microservices S
 
 
 ## 🚀 Project Highlights
@@ -5,9 +6,9 @@
 - **Microservices Architecture**: Modular services with clear separation of concerns.
 - **Event-Driven Communication**: Powered by RabbitMQ for asynchronous messaging.
 - **Resilience & Fault Tolerance**: Integrated Polly for retries, circuit breakers, and fallback.
-- **Containerization**: All services are dockerized for consistency and ease of deployment.
+- **Containerization**: All services are Dockerized for consistency and ease of deployment.
 - **Scalable Design**: Services can be independently scaled and deployed.
-- **Real-World Use Case**: Covers core aspects of an actual eCommerce system (Catalog, Basket, Order, Payment, etc.).
+- **Real-World Use Case**: Covers core aspects of an actual eCommerce system (Catalog, Basket, Order, etc.).
 
 ## 🧩 Tech Stack
 
@@ -27,10 +28,22 @@
 | Catalog API    | Manages product data |
 | Basket API     | Handles shopping cart operations |
 | Order API      | Processes customer orders |
-| Payment API    | Simulates payment processing |
 | Identity API   | Manages authentication and authorization |
 | Gateway API    | API gateway for routing and aggregation |
 | Event Bus      | Manages integration events using RabbitMQ |
+
+## 🔧 In Progress
+
+⚠️ **This project is still in development and not yet complete.**  
+The following services and features are **planned** and **coming soon**:
+
+- 🧾 **Payment Service** – Process and verify transactions
+- 📦 **Inventory Service** – Track stock and availability
+- 🔔 **Notification Service** – Email, SMS, and in-app alerts
+- 📈 **Monitoring & Logging** – Centralized metrics and dashboards
+- 🛡 **Advanced Security** – Role-based access and API rate-limiting
+
+Stay tuned for updates as the project continues to evolve!
 
 ## 🛠️ Features
 
@@ -40,14 +53,7 @@
 - Secure APIs with JWT authentication
 - Clean architecture with domain-driven design principles
 
-## 📦 Getting Started
 
-### Prerequisites
-
-- [.NET 7 SDK](https://dotnet.microsoft.com/en-us/download)
-- [Docker](https://www.docker.com/products/docker-desktop)
-- [RabbitMQ](https://www.rabbitmq.com/)
-- [Visual Studio or VS Code](https://visualstudio.microsoft.com/)
 
 ### Running the Project
 
